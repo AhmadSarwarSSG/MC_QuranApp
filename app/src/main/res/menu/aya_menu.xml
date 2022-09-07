@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/aya_juzz"
+        android:icon="@drawable/ic_baseline_view_list_24"
+        android:title="Juzz Index" />
+    <item
+        android:id="@+id/aya_surah"
+        android:icon="@drawable/ic_baseline_view_list_24"
+        android:title="Surah Index" />
+    <item
+        android:id="@+id/aya_search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Search" />
+    <item
+        android:title="Urdu Translation" >
+        <menu >
+            <item
+                android:id="@+id/jalandhri"
+                android:icon="@drawable/ic_baseline_g_translate_24"
+                android:title="Fateh Muhammad Jalandhri" />
+            <item
+                android:id="@+id/mehmood"
+                android:icon="@drawable/ic_baseline_g_translate_24"
+                android:title="Mehmood ul Hassan" />
+        </menu>
+    </item>
+    <item
+        android:title="English Translation" >
+        <menu >
+            <item
+                android:id="@+id/mohsin"
+                android:icon="@drawable/ic_baseline_g_translate_24"
+                android:title="Dr Mohsin Khan" />
+            <item
+                android:id="@+id/taqi"
+                android:icon="@drawable/ic_baseline_g_translate_24"
+                android:title="Mufti Taqi Usmani" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/no_trans"
+        android:icon="@drawable/ic_baseline_speaker_notes_off_24"
+        android:title="No Translation" />
+</menu>
